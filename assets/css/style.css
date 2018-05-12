@@ -1,0 +1,179 @@
+/* did not get the border-bottom on the bottom of heading */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+}
+
+.span1 {
+    word-spacing: 10px;
+}
+
+.wrapper {
+    left: 200px;
+    margin: 0 auto;
+    background-color: #dddddd;
+    padding: 30px;
+}
+
+#topbar {
+    background-color: #ffffff;
+    position: relative;
+    left: 100px;
+    /* right: 70px; */
+    
+}
+
+#nameTop {
+    background-color: rgb(74,170,165);
+    padding: 25px;
+    color: white;
+    width: 220px;
+    height: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-bottom: 2px #cccccc;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+header {
+    display: inline-block;
+
+} 
+
+#links {
+    position: relative;
+    float: left;
+    top: -50px;
+    left: 720px;
+}
+
+header div {
+    float: left;
+}
+
+.aboutMe {
+    clear: left;
+    width: 960px;
+    background-color: white;
+    position: relative;
+    left: 70px;
+    padding: 30px;
+}
+
+#about {
+    color: rgb(74,170,165);
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+img {
+    float: left;
+    -webkit-transform: rotate(270deg);
+    position: relative;
+    top: 45px;
+}
+
+p {
+    line-height: 2;
+    position: relative;
+    top: 15px;
+    /* font-family: 'IBM Plex Serif', serif; */
+}
+
+.copyright {
+    text-align: center;
+}
+
+#footer {
+    background-color: #666666;
+    color: white;
+    border-top: 6px solid #4aaaa5;
+    height: 70px;
+    position: relative;
+    /* bottom: -100px; */
+    /* margin: -90px; */
+}
+
+
+/* code below is for porfolio.html*/
+
+.Portfolio {
+    clear: left;
+    width: 960px;
+    background-color: white;
+    position: relative;
+    left: 70px;
+    padding: 30px;
+    padding-bottom: 500px;
+}
+
+#prtfolio {
+    color: rgb(74,170,165);
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;.images {
+    -webkit-transform: rotate(180deg);
+}
+
+.images {
+    /* -webkit-transform: rotate(90deg); */
+}
+
+#img1 {
+    /* -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); */
+    position: relative;
+    top: 100px;
+    right: 7px;
+}
+
+.img2 {
+    position: relative;
+    top: 7px;
+    right: -290px;
+}
+
+/* code below DOESNT work.. */
+/* .imgwords1 {
+    position: relative;
+    top: 240px;
+    left: -225px;
+    background-color: #4aaaa5;
+    font-size: 30px;
+    color: white;
+    padding-top: 25px;
+} */
+
+.words {
+
+}
+
+
+/* code below is for contact.html */
+
+#input {
+    background-color: #4aaaa5;
+}
+
+#nameIn {
+    margin-bottom: 20px;
+}
