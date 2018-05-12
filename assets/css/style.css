@@ -8,6 +8,12 @@ body {
     color: #777777;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: #777777;
+    word-spacing: 10px;
+}
+
 .span1 {
     word-spacing: 10px;
 }
@@ -176,4 +182,8 @@ p {
 
 #nameIn {
     margin-bottom: 20px;
+}
+
+#messageIn {
+    width: 100%;
 }
